@@ -1,0 +1,122 @@
+body {
+  font-family: Rubik, sans-serif;
+  box-sizing: border-box;
+  .image {
+    height: 300px;
+    width: 300px;
+  }
+  #mainDiv {
+    max-width: 44rem;
+    margin: auto;
+    h4 {
+      margin-top: 0 !important;
+    }
+
+    #search-Results {
+      padding: 10px;
+      #cars-list {
+        width: 100%;
+        list-style-type: none;
+        margin: 0;
+        padding: 0 2.2rem;
+        li {
+          cursor: pointer;
+          position: relative;
+          width: 100%;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+          padding: 1.6rem 1.2rem;
+          padding-left: .2rem;
+          padding-right: 2rem;
+          border-bottom: .1rem solid rgba(0, 0, 0, .1);
+          &:after {
+            right: .2rem;
+            display: inline-block;
+            float: right;
+            width: .8rem;
+            height: 1.3rem;
+            margin: 0 auto;
+            color: #d3d3d3;
+            content: '>'
+          }
+        }
+        .active{
+          color: red;
+          &:after {
+            color: red;
+          }
+        }
+      }
+    }
+
+    .form-group {
+      margin: 0;
+    }
+    .search-container {
+      padding-top: 20px;
+      position: relative;
+      height: 140px;
+      .inputs-wrapper {
+        position: relative;
+        width: 100%;
+      }
+      .mobile-input-selection {
+        height: 100%;
+        width: 100%;
+        transition: all .5s ease-in-out;
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+      label {
+        color: #333;
+        font-size: 2rem;
+        line-height: 2.6rem;
+        font-weight: 400;
+      }
+      .question-text {
+        width: 100%;
+        padding: 1.8rem 0;
+        display: block;
+        color: #333;
+        font-size: 2rem;
+        line-height: 2.6rem;
+        font-weight: 400;
+      }
+      .mobile-input-selection > div:not(.slider) {
+        width: 100%;
+        overflow: hidden;
+      }
+      input {
+        width: 100%;
+        height: 5rem;
+        outline: none;
+        padding: 1.4rem 2.2rem;
+        border: .1rem solid #272727;
+        border-radius: 10rem;
+        &:active, &:focus {
+          outline: none;
+          border-color: #512da8;
+          outline-color: transparent;
+        }
+      }
+
+    }
+  }
+
+  header {
+    border-bottom: .1rem solid #eee;
+    a {
+      font-weight: 500;
+      font-size: 28px;
+      letter-spacing: 2px;
+      color: #000;
+    }
+    .header-wrapper {
+      padding: 0 50px;
+    }
+  }
+
+  .searchResults{
+    padding: 2rem 2.2rem;
+  }
+}

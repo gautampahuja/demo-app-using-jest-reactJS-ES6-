@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchResults component SearchResults list is rendered with filteredCars object  1`] = `
+<div
+  className="results"
+  id="search-Results"
+>
+  <ul
+    id="cars-list"
+  >
+    <li
+      className=""
+      onClick={[Function]}
+    >
+      MERCEDES BENZ
+    </li>
+    <li
+      className=""
+      onClick={[Function]}
+    >
+      VOLKS WAGEN
+    </li>
+    <li
+      className=""
+      onClick={[Function]}
+    >
+      HYUNDAI
+    </li>
+    <li
+      className=""
+      onClick={[Function]}
+    >
+      INFINITI
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`SearchResults component SearchResults list is rendered without filteredCars object 1`] = `
+<div
+  className="results"
+  id="search-Results"
+>
+  <ul
+    id="cars-list"
+  >
+    
+  </ul>
+</div>
+`;

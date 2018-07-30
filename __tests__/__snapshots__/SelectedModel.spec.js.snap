@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectedModel component SelectedModel is rendered with selectedCarName object  1`] = `
+<div
+  className="searchResults"
+>
+  <h4>
+    <u>
+      Selected Model
+    </u>
+    : 
+    MERCEDES BENZ
+  </h4>
+</div>
+`;
+
+exports[`SelectedModel component SelectedModel is rendered without selectedCarName object 1`] = `
+<div
+  className="searchResults"
+>
+  
+</div>
+`;
